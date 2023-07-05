@@ -21,4 +21,8 @@ export class CounterComponent implements OnInit {
     this.count = this.count - 1;
   }
 
+  reset() {
+    this.count = 0;
+  }
+
 }
